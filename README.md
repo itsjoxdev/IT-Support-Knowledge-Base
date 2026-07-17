@@ -54,4 +54,4 @@ The goal is to demonstrate troubleshooting skills, technical documentation, and 
 
 itsJoxDev - Youssef S.Elhussainy
 
-Cyber Security Engineer | IT Support Specialst
+Cyber Security Engineer | IT Support Specialist 
