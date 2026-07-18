@@ -61,6 +61,14 @@ Identify applications consuming excessive resources.
 
 ---
 
+## Task Manager Analysis
+
+Use Task Manager to identify applications consuming high CPU, Memory, or Disk resources.
+
+![Task Manager](../Screenshots/task-manager.png)
+
+---
+
 ### Step 3 – Disable Unnecessary Startup Programs
 
 Open:
