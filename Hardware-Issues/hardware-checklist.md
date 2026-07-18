@@ -133,6 +133,14 @@ Update or reinstall drivers if necessary.
 
 ---
 
+## Device Manager Overview
+
+Device Manager allows IT Support technicians to view installed hardware, identify driver issues, and manage connected devices.
+
+![Device Manager](../Screenshots/device-manager.png)
+
+---
+
 ## Windows Updates
 
 Verify Windows is up to date.
