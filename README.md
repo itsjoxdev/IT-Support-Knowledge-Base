@@ -1,5 +1,10 @@
 # IT Support Knowledge Base 🖥️
 
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![Markdown](https://img.shields.io/badge/Documentation-Markdown-blue)
+![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%20Windows%2011-0078D6)
+![IT Support](https://img.shields.io/badge/Role-IT%20Support-success)
+
 A professional IT Support Knowledge Base containing structured troubleshooting guides, best practices, and documentation for common Windows, Network, Hardware, Account, and Security issues.
 
 This repository demonstrates practical IT Support skills, troubleshooting methodology, and technical documentation used in real-world Help Desk environments.
