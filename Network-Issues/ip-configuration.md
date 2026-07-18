@@ -65,6 +65,14 @@ Check:
 
 ---
 
+## Network Configuration Overview
+
+Use Windows Network Settings to verify adapter status, connection details, and network configuration.
+
+![Network Settings](../Screenshots/network-settings.png)
+
+---
+
 ### Step 3 – Identify APIPA Address
 
 If the computer receives an address like:
