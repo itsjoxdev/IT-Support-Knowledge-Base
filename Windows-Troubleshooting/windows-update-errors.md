@@ -107,6 +107,14 @@ Install available updates and restart the computer if required.
 
 ---
 
+## Windows Update Settings Overview
+
+Windows Update Settings allow IT Support technicians to check update status, install available updates, review update history, and troubleshoot update-related issues.
+
+![Windows Update](../Screenshots/windows-update.png)
+
+---
+
 ## Useful Commands
 
 ```cmd
