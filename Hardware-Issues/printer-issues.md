@@ -74,6 +74,14 @@ Check whether the printer status is:
 
 ---
 
+## Printer Settings Overview
+
+Windows Printer Settings allow IT Support technicians to manage installed printers, check printer status, configure printing options, and troubleshoot connection issues.
+
+![Printer Settings](../Screenshots/printer-settings.png)
+
+---
+
 ### Step 4 – Set as Default Printer
 
 Select the correct printer and choose:
