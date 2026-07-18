@@ -47,6 +47,14 @@ Ensure WiFi is turned on.
 
 ---
 
+## Network Settings Overview
+
+Use Windows Network Settings to verify WiFi connection status, available networks, and adapter configuration.
+
+![Network Settings](../Screenshots/network-settings.png)
+
+---
+
 ### Step 2 – Verify Airplane Mode
 
 Check that Airplane Mode is disabled.
