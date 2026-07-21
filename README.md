@@ -5,7 +5,6 @@
 ![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%20Windows%2011-0078D6)
 ![IT Support](https://img.shields.io/badge/Role-IT%20Support-success)
 ![Knowledge Base](https://img.shields.io/badge/Project-Knowledge%20Base-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Release](https://img.shields.io/badge/Release-v1.0.0-orange)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
