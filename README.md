@@ -15,16 +15,17 @@ This repository demonstrates practical **IT Support skills, troubleshooting meth
 
 # 📖 Table of Contents
 
-- [About](#-about)
-- [Repository Structure](#-repository-structure)
-- [Topics Covered](#-topics-covered)
-- [Troubleshooting Methodology](#-troubleshooting-methodology)
-- [Command Reference](#-command-reference)
-- [Screenshots](#-screenshots)
-- [Tools Used](#-tools-used)
-- [Skills Demonstrated](#-skills-demonstrated)
-- [Future Improvements](#-future-improvements)
-- [Author](#-author)
+- [📌 About](#-about)
+- [📂 Repository Structure](#-repository-structure)
+- [📚 Topics Covered](#-topics-covered)
+- [🔍 Troubleshooting Methodology](#-troubleshooting-methodology)
+- [⌨️ Command Reference](#️-command-reference)
+- [🖼️ Screenshots](#️-screenshots)
+- [🛠️ Tools Used](#️-tools-used)
+- [💡 Skills Demonstrated](#-skills-demonstrated)
+- [🚀 Future Improvements](#-future-improvements)
+- [👨‍💻 Author](#-author)
+- [⭐ Purpose](#-purpose)
 
 ---
 
