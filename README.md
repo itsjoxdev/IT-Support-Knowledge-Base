@@ -4,51 +4,83 @@
 ![Markdown](https://img.shields.io/badge/Documentation-Markdown-blue)
 ![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%20Windows%2011-0078D6)
 ![IT Support](https://img.shields.io/badge/Role-IT%20Support-success)
+![Knowledge Base](https://img.shields.io/badge/Project-Knowledge%20Base-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Release](https://img.shields.io/badge/Release-v1.0.0-orange)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-A professional **IT Support Knowledge Base** containing structured troubleshooting guides, technical documentation, command references, and best practices for common Windows, Network, Hardware, Account, and Security issues.
+A comprehensive **IT Support Knowledge Base** containing structured troubleshooting guides, technical documentation, command references, best practices, and standard operating procedures for common Windows, Network, Hardware, Account, and Security issues.
 
-This repository demonstrates practical **IT Support skills, troubleshooting methodology, documentation standards, and Help Desk workflows** used in real-world environments.
+This repository demonstrates practical **IT Support**, **Help Desk**, **Desktop Support**, and **Technical Support** skills while following documentation standards commonly used in enterprise IT environments.
 
 ---
 
 # 📖 Table of Contents
 
-- [📌 About](#-about)
-- [📂 Repository Structure](#-repository-structure)
-- [📚 Topics Covered](#-topics-covered)
-- [🔍 Troubleshooting Methodology](#-troubleshooting-methodology)
-- [⌨️ Command Reference](#️-command-reference)
-- [🖼️ Screenshots](#️-screenshots)
-- [🛠️ Tools Used](#️-tools-used)
-- [💡 Skills Demonstrated](#-skills-demonstrated)
-- [🚀 Future Improvements](#-future-improvements)
-- [👨‍💻 Author](#-author)
-- [⭐ Purpose](#-purpose)
+- [📌 About](#about)
+- [✨ Features](#features)
+- [📂 Repository Structure](#repository-structure)
+- [📚 Topics Covered](#topics-covered)
+- [🔍 Troubleshooting Methodology](#troubleshooting-methodology)
+- [🧰 Troubleshooting Workflow](#troubleshooting-workflow)
+- [⌨️ Command Reference](#command-reference)
+- [🖼️ Screenshots](#screenshots)
+- [🛠️ Tools Used](#tools-used)
+- [💡 Skills Demonstrated](#skills-demonstrated)
+- [📈 Learning Outcomes](#learning-outcomes)
+- [🚀 Future Improvements](#future-improvements)
+- [👨‍💻 Author](#author)
+- [⭐ Purpose](#purpose)
+- [📄 License](#license)
 
 ---
 
+<a id="about"></a>
+
 # 📌 About
 
-This project was created to showcase professional **IT Support documentation and problem-solving techniques**.
+This project was created as part of my professional portfolio to demonstrate practical IT Support documentation, troubleshooting methodologies, and technical problem-solving techniques.
 
-Each troubleshooting guide follows a standardized documentation format to ensure consistency, readability, and easy maintenance.
+Each troubleshooting guide follows a standardized documentation format to ensure consistency, readability, maintainability, and ease of use in real-world Help Desk environments.
 
 Every guide includes:
 
 - Overview
 - Symptoms
-- Possible Causes
+- Root Causes
+- Required Tools
 - Troubleshooting Steps
 - Useful Commands
 - Resolution
+- Verification
 - Prevention
 - Related Issues
+- References
 
-The goal is to simulate a real-world **IT Help Desk Knowledge Base** used by support teams.
+The goal is to simulate a real enterprise **IT Help Desk Knowledge Base** used by support engineers and technical support teams.
 
 ---
+
+<a id="features"></a>
+
+# ✨ Features
+
+- Structured troubleshooting documentation
+- Windows administration guides
+- Networking troubleshooting
+- Hardware diagnostics
+- User account support
+- Security best practices
+- Command reference library
+- Standard Operating Procedures (SOP)
+- Knowledge Base templates
+- Documentation standards
+- Help Desk workflows
+- Enterprise-style documentation
+
+---
+
+<a id="repository-structure"></a>
 
 # 📂 Repository Structure
 
@@ -59,37 +91,58 @@ IT-Support-Knowledge-Base/
 │   ├── slow-computer.md
 │   ├── blue-screen-bsod.md
 │   ├── startup-problems.md
-│   └── windows-update-errors.md
+│   ├── windows-update-errors.md
+│   ├── disk-space-issues.md
+│   ├── application-crashes.md
+│   └── system-performance.md
 │
 ├── Network-Issues/
 │   ├── wifi-problems.md
 │   ├── dns-problems.md
 │   ├── ip-configuration.md
-│   └── internet-not-working.md
+│   ├── internet-not-working.md
+│   ├── network-sharing.md
+│   └── vpn-issues.md
 │
 ├── Hardware-Issues/
 │   ├── hardware-checklist.md
 │   ├── printer-issues.md
-│   └── keyboard-mouse.md
+│   ├── keyboard-mouse.md
+│   ├── display-problems.md
+│   ├── storage-devices.md
+│   └── usb-devices.md
 │
 ├── Account-Support/
 │   ├── password-reset.md
 │   ├── account-lockout.md
-│   └── email-issues.md
+│   ├── email-issues.md
+│   ├── profile-problems.md
+│   └── permissions.md
 │
 ├── Security/
 │   ├── basic-security-checklist.md
 │   ├── malware-prevention.md
-│   └── password-policy.md
+│   ├── password-policy.md
+│   ├── phishing-awareness.md
+│   └── windows-security.md
 │
 ├── Commands/
 │   ├── windows-commands.md
-│   └── networking-commands.md
+│   ├── networking-commands.md
+│   ├── powershell-commands.md
+│   └── troubleshooting-cheatsheet.md
 │
-├── Screenshots/
+├── Documentation/
+│   ├── ticket-documentation.md
+│   ├── troubleshooting-workflow.md
+│   ├── incident-documentation.md
+│   └── knowledge-base-guidelines.md
 │
 ├── Templates/
-│   └── troubleshooting-template.md
+│   ├── troubleshooting-template.md
+│   └── incident-template.md
+│
+├── Screenshots/
 │
 ├── CHANGELOG.md
 ├── CODE_OF_CONDUCT.md
@@ -100,233 +153,438 @@ IT-Support-Knowledge-Base/
 
 ---
 
+<a id="topics-covered"></a>
+
 # 📚 Topics Covered
 
 ## 🪟 Windows Troubleshooting
 
-Documentation for common Windows problems:
+Comprehensive troubleshooting guides for common Windows issues:
 
 - Slow Computer
-- Blue Screen (BSOD)
+- Blue Screen of Death (BSOD)
 - Startup Problems
 - Windows Update Errors
+- Application Crashes
+- Disk Space Issues
+- Performance Optimization
 
 ---
 
-## 🌐 Network Issues
+## 🌐 Network Troubleshooting
 
-Network troubleshooting guides covering:
+Documentation covering common networking problems:
 
-- WiFi Connectivity Problems
-- DNS Problems
-- IP Configuration Issues
-- Internet Connectivity Problems
+- Wi-Fi Connectivity Issues
+- DNS Resolution Problems
+- IP Configuration
+- Internet Connectivity
+- Network Sharing
+- VPN Connectivity
+- Basic TCP/IP Troubleshooting
 
 ---
 
-## 🖨️ Hardware Issues
+## 🖨️ Hardware Diagnostics
 
-Hardware diagnosis and troubleshooting:
+Hardware troubleshooting and diagnostics:
 
 - Printer Issues
 - Keyboard & Mouse Problems
-- Hardware Troubleshooting Checklist
+- Display Issues
+- USB Device Problems
+- Storage Devices
 - Device Manager Diagnostics
+- Hardware Troubleshooting Checklist
 
 ---
 
-## 👤 Account Support
+## 👤 User Account Support
 
-Common user account problems:
+Common account administration tasks:
 
 - Password Reset
 - Account Lockout
-- Email Issues
+- Email Configuration
+- User Profiles
+- Permission Issues
+- Account Recovery
 
 ---
 
 ## 🔒 Security
 
-Basic security documentation:
+Security documentation and best practices:
 
 - Security Checklist
 - Malware Prevention
-- Password Policy Guidelines
+- Password Policies
+- Windows Security
+- Phishing Awareness
+- Safe Computing Practices
 
 ---
+
+## 📋 Documentation Standards
+
+Documentation includes:
+
+- Incident Documentation
+- Ticket Notes
+- Troubleshooting Procedures
+- Knowledge Base Articles
+- Resolution Documentation
+
+---
+
+<a id="troubleshooting-methodology"></a>
 
 # 🔍 Troubleshooting Methodology
 
-All documentation follows a structured troubleshooting workflow:
+Every troubleshooting guide follows a structured methodology:
 
-```
-Identify Issue
-      ↓
+```text
+Identify the Issue
+        │
+        ▼
 Collect Information
-      ↓
+        │
+        ▼
 Verify Symptoms
-      ↓
+        │
+        ▼
 Analyze Possible Causes
-      ↓
-Apply Solution
-      ↓
-Validate Result
-      ↓
-Document Resolution
+        │
+        ▼
+Apply Troubleshooting Steps
+        │
+        ▼
+Validate the Solution
+        │
+        ▼
+Document the Resolution
 ```
 
-This approach follows standard IT Help Desk troubleshooting practices.
+This methodology aligns with standard Help Desk and IT Support best practices.
 
 ---
 
+<a id="troubleshooting-workflow"></a>
+
+# 🧰 Troubleshooting Workflow
+
+Typical support ticket lifecycle:
+
+```text
+User Reports Issue
+        │
+        ▼
+Create Ticket
+        │
+        ▼
+Gather Information
+        │
+        ▼
+Initial Diagnosis
+        │
+        ▼
+Resolve Issue
+        │
+        ▼
+Need Escalation?
+   │             │
+  No            Yes
+   │             │
+   ▼             ▼
+Close Ticket  Escalate
+        │
+        ▼
+Update Documentation
+```
+
+---
+
+<a id="command-reference"></a>
+
 # ⌨️ Command Reference
 
-The repository includes command references for common IT Support tasks.
+The repository includes frequently used Windows and networking commands for troubleshooting.
 
-## Windows Commands
-
-Examples:
+## 🪟 Windows Commands
 
 ```cmd
 sfc /scannow
 ```
 
-Repair corrupted Windows system files.
+Scans and repairs corrupted Windows system files.
+
+---
 
 ```cmd
 DISM /Online /Cleanup-Image /RestoreHealth
 ```
 
-Repair Windows image health.
+Repairs the Windows image and component store.
+
+---
 
 ```cmd
 chkdsk /f
 ```
 
-Check and repair disk errors.
+Checks and repairs file system errors.
 
 ---
 
-## Networking Commands
+```cmd
+tasklist
+```
 
-Examples:
+Displays all running processes.
+
+---
+
+```cmd
+systeminfo
+```
+
+Displays detailed system information.
+
+---
+
+## 🌐 Networking Commands
 
 ```cmd
 ipconfig /all
 ```
 
-Display detailed network configuration.
+Displays complete network configuration.
+
+---
+
+```cmd
+ipconfig /flushdns
+```
+
+Clears the DNS cache.
+
+---
 
 ```cmd
 ping
 ```
 
-Test network connectivity.
+Tests network connectivity.
+
+---
+
+```cmd
+tracert
+```
+
+Traces the route to a destination host.
+
+---
 
 ```cmd
 nslookup
 ```
 
-Perform DNS lookup.
+Queries DNS servers.
+
+---
 
 ```cmd
 netstat
 ```
 
-Display active connections.
+Displays active network connections.
 
 ---
+
+```cmd
+arp -a
+```
+
+Displays the ARP cache.
+
+---
+
+```cmd
+netsh wlan show profiles
+```
+
+Displays saved Wi-Fi profiles.
+
+---
+
+<a id="screenshots"></a>
 
 # 🖼️ Screenshots
 
-The documentation includes real troubleshooting screenshots:
+The documentation includes real troubleshooting screenshots and configuration examples.
 
-## Task Manager
+Examples include:
 
-![Task Manager](Screenshots/task-manager.png)
-
----
-
-## Device Manager
-
-![Device Manager](Screenshots/device-manager.png)
-
----
-
-## Printer Settings
-
-![Printer Settings](Screenshots/printer-settings.png)
+- Task Manager
+- Device Manager
+- Windows Update
+- Windows Security
+- Printer Settings
+- Network Settings
+- Command Prompt Output
+- Event Viewer
+- Disk Management
 
 ---
 
-## Windows Update
-
-![Windows Update](Screenshots/windows-update.png)
-
----
-
-## Network Settings
-
-![Network Settings](Screenshots/network-settings.png)
-
----
+<a id="tools-used"></a>
 
 # 🛠️ Tools Used
 
+- Git
 - GitHub
 - Markdown
-- Windows 10 / Windows 11
+- Windows 10
+- Windows 11
 - Command Prompt
+- PowerShell
 - Windows Security
 - Device Manager
 - Task Manager
+- Event Viewer
 - Windows Settings
+- Resource Monitor
 - Network Diagnostic Tools
-- Git Version Control
 
 ---
+
+<a id="skills-demonstrated"></a>
 
 # 💡 Skills Demonstrated
 
-- IT Help Desk Support
-- Windows Administration
+### IT Support
+
+- IT Help Desk
+- Desktop Support
+- Technical Support
+- Incident Handling
+- Ticket Management
+- End-User Support
+
+### Windows Administration
+
 - Windows Troubleshooting
+- Windows Configuration
+- System Maintenance
+- Performance Optimization
+
+### Networking
+
 - Network Troubleshooting
+- TCP/IP Fundamentals
+- DNS Troubleshooting
+- Wi-Fi Troubleshooting
+- IP Configuration
+
+### Hardware Support
+
 - Hardware Diagnostics
-- Account Management
-- Security Best Practices
+- Peripheral Troubleshooting
+- Device Management
+
+### Documentation
+
 - Technical Documentation
 - Knowledge Base Development
+- SOP Documentation
+- Incident Documentation
+
+### Professional Skills
+
 - Problem Solving
-- Git & GitHub Workflow
+- Root Cause Analysis
+- Analytical Thinking
+- Attention to Detail
+- Customer Communication
+- Documentation Standards
+
+### Technical Tools
+
+- Git
+- GitHub
+- Markdown
+- Windows Administration Tools
+- Command Line
+- PowerShell Basics
 
 ---
+
+<a id="learning-outcomes"></a>
+
+# 📈 Learning Outcomes
+
+This project demonstrates the ability to:
+
+- Create structured technical documentation
+- Troubleshoot Windows operating systems
+- Diagnose networking problems
+- Support end users effectively
+- Document incidents professionally
+- Build scalable knowledge bases
+- Apply systematic troubleshooting methodologies
+- Follow enterprise Help Desk documentation standards
+
+---
+
+<a id="future-improvements"></a>
 
 # 🚀 Future Improvements
 
-Planned improvements:
+Future enhancements may include:
 
-- Add more troubleshooting scenarios
-- Add PowerShell command references
-- Add Active Directory documentation
-- Add Linux troubleshooting guides
-- Add ticketing system examples
-- Add automation scripts for common fixes
+- PowerShell automation scripts
+- Active Directory documentation
+- Microsoft 365 administration
+- Azure AD / Microsoft Entra ID guides
+- Linux troubleshooting
+- Remote Desktop support guides
+- Ticketing system workflows
+- Group Policy documentation
+- Microsoft Intune basics
+- ITIL-inspired incident management
+- Interactive troubleshooting flowcharts
 
 ---
+
+<a id="author"></a>
 
 # 👨‍💻 Author
 
-**Youssef S.Elhussainy**
+**Youssef S. Elhussainy**
 
 Cyber Security Engineer • IT Support Specialist
 
-GitHub: **@itsjoxdev**
+**GitHub:** @itsjoxdev
 
 ---
 
+<a id="purpose"></a>
+
 # ⭐ Purpose
 
-This repository is part of my professional portfolio.
+This repository is part of my professional portfolio and demonstrates my ability to diagnose technical issues, document troubleshooting procedures, organize technical knowledge, and apply industry-standard IT Support and Help Desk practices.
 
-It demonstrates my ability to create structured technical documentation, troubleshoot real-world IT problems, and apply industry-standard Help Desk practices.
+It reflects practical skills in Windows administration, networking, hardware diagnostics, technical documentation, and structured problem-solving used in real-world IT Support environments.
+
+---
+
+<a id="license"></a>
+
+# 📄 License
+
+Copyright © 2026 Youssef S. Elhussainy
+
+All rights reserved.
+
+No part of this repository may be copied, modified, distributed, or used without prior written permission from the author.
